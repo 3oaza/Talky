@@ -22,7 +22,7 @@ public:
         
         spdlog::set_default_logger(logger);
         TALKY_INFO("------------------------------------------------");
-        TALKY_INFO("Talky AI Engine Initialized.");
+        TALKY_INFO("Talky Engine Initialized.");
         TALKY_INFO("Version: v1.0.0-alpha | Built by Fragment");
         TALKY_INFO("Empowering voices, one conversation at a time.");
         // يتم استدعاء اسم الكارت برمجياً هنا
