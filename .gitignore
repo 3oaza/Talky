@@ -1,0 +1,16 @@
+# Build directories
+/build/
+/out/
+/bin/
+/.vs/
+/vcpkg_installed/
+
+# AI Models (Too large for GitHub)
+/models/*.gguf
+/models/*.onnx
+/models/*.bin
+
+# Logs and temp files
+*.log
+*.tmp
+.DS_Store
