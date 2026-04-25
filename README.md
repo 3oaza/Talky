@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.ico" width="128" height="128" />
+</p>
+
 # 🎧 Talky AI - The Raw Gaming Translator (v1.0-alpha)
 
 Talky is a **100% Offline**, C++ powered voice translator designed for competitive gamers. It translates incoming voice chat in real-time and broadcasts it through a virtual microphone—with **zero latency** and **zero censorship**.
