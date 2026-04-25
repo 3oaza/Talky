@@ -27,6 +27,7 @@ Name: "{autodesktop}\Talky"; Filename: "{app}\bin\Talky.exe"
 [Run]
 ; Install VAC silently if selected
 Filename: "{tmp}\VBCABLE_Setup_x64.exe"; Parameters: "/silent"; StatusMsg: "Installing Virtual Audio Cable..."; Flags: runascurrentuser
+Filename: "{app}\bin\Talky.exe"; Description: "{cm:LaunchProgram,Talky AI}"; Flags: nowait postinstall skipifsilent
 
 [Code]
 // Example: Check for NVIDIA GPU before finishing
