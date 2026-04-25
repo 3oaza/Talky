@@ -33,4 +33,4 @@ Talky is open-source. It does not collect any voice data or text.
 
 ---
 *Built by Fragment*
-*Empowering creators one pixel at a time.*
+*Empowering voices, one conversation at a time.*

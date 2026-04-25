@@ -24,6 +24,7 @@ public:
         TALKY_INFO("------------------------------------------------");
         TALKY_INFO("Talky AI Engine Initialized.");
         TALKY_INFO("Version: v1.0.0-alpha | Built by Fragment");
+        TALKY_INFO("Empowering voices, one conversation at a time.");
         // يتم استدعاء اسم الكارت برمجياً هنا
         TALKY_INFO("Hardware Detected: NVIDIA RTX Series"); 
         TALKY_INFO("------------------------------------------------");
