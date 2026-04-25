@@ -32,4 +32,5 @@ Talky is a **100% Offline**, C++ powered voice translator designed for competiti
 Talky is open-source. It does not collect any voice data or text.
 
 ---
-*Powered by Grit Engine.*
+*Built by Fragment*
+*Empowering creators one pixel at a time.*

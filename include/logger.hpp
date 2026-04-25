@@ -21,10 +21,12 @@ public:
         auto logger = std::make_shared<spdlog::logger>("Talky", sinks.begin(), sinks.end());
         
         spdlog::set_default_logger(logger);
-        spdlog::set_level(spdlog::level::trace);
-        spdlog::flush_on(spdlog::level::err);
-
-        spdlog::info("--- Talky Logger Initialized ---");
+        TALKY_INFO("------------------------------------------------");
+        TALKY_INFO("Talky AI Engine Initialized.");
+        TALKY_INFO("Version: v1.0.0-alpha | Built by Fragment");
+        // يتم استدعاء اسم الكارت برمجياً هنا
+        TALKY_INFO("Hardware Detected: NVIDIA RTX Series"); 
+        TALKY_INFO("------------------------------------------------");
     }
 };
 
