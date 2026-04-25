@@ -13,8 +13,10 @@ find_package(Eigen3 REQUIRED)
 # 2. Project Structure
 include_directories(include)
 
-set(PROJECT_SOURCES
+# Source files
+set(SOURCES
     src/main.cpp
+    resources.rc # Add the icon resource
     include/app_controller.hpp
     include/audio_engine.hpp
     include/audio_output.hpp

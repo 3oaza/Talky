@@ -8,8 +8,9 @@ OutputDir=./dist/installer
 OutputBaseFilename=TalkySetup
 Compression=lzma
 SolidCompression=yes
-ArchitecturesAllowed=x64
 ArchitecturesInstallIn64BitMode=x64
+SetupIconFile=logo.ico
+UninstallDisplayIcon={app}\bin\Talky.exe
 
 [Files]
 ; Main Application
